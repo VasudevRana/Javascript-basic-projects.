@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container{
+    border: 3px solid red;
+    padding: 2rem;
+    font-size: 1.5rem;
+    flex: 0 0 70%;
+    text-align: center;
+    box-shadow: 3px 3px 10px 10px black;
+    text-transform: capitalize;
+
+}
+.counter{
+font-size: 4rem;
+
+}
+
+
+
+
+.btns{
+font-size: 1rem;
+padding: .25rem .5rem;
+border-radius: 7px;
+border: none;
+text-transform: capitalize;
+background: chartreuse;
+color: crimson;
+margin: 1rem 1rem;
+outline: none;
+
+}
+.btns:hover{
+    background-color:black;
+    color: blue;
+}
+.btns:active{
+    background-color: burlywood;
+}
